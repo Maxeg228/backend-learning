@@ -44,7 +44,7 @@ def login():
 @app.route('/CreateNews')
 def create_news():
     form = LoginForm()
-    return render_template('CreateNews.html', title='Create News', form=form)
+    return render_template('create_news.html', title='Create News', form=form)
 
 
 @app.route('/Profile')
